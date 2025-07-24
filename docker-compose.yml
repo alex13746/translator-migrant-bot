@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+      - YANDEX_API_KEY=${YANDEX_API_KEY}
+      - YANDEX_FOLDER_ID=${YANDEX_FOLDER_ID}
+      - POSTGRES_URL=${POSTGRES_URL}
+      - WEBHOOK_HOST=${WEBHOOK_HOST}
+      - WEBHOOK_PATH=${WEBHOOK_PATH}
+    env_file:
+      - .env
+    volumes:
+      - ./tmp/uploads:/tmp/uploads
