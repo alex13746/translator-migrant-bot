@@ -1,0 +1,47 @@
+# Telegram Bot Framework
+aiogram==3.4.1
+
+# Async Database ORM
+SQLAlchemy==2.0.25
+asyncpg==0.29.0
+
+# OCR and Image Processing
+pytesseract==0.3.10
+Pillow==10.2.0
+opencv-python==4.9.0.80
+
+# HTTP Client
+aiohttp==3.9.3
+httpx==0.26.0
+
+# Environment Variables
+python-dotenv==1.0.1
+
+# Logging
+python-json-logger==2.0.7
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.4
+
+# PDF Generation
+fpdf2==2.7.7
+
+# Utils
+typing-extensions==4.9.0
+
+# For health check and web server
+fastapi==0.109.1
+uvicorn==0.27.1
+
+# For TTS file handling
+pydub==0.25.1
+
+# For text processing and transliteration
+transliterate==1.10.2
+
+# For metrics and monitoring
+prometheus-client==0.19.0
+
+# For file validation
+python-magic==0.4.27
